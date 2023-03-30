@@ -1,7 +1,7 @@
 import cv2
 
 # Load the image
-img = cv2.imread(r"C:\Users\vinee\Desktop\3rd_YEAR\DIP\DigImgProc\NOODLES.webp")
+img = cv2.imread(r"/home/vineeth/Documents/directory_env/digImgProcEnv/DIP_LAB/NOODLES.webp")
 image = cv2.resize(img, (780,500))
 
 # Get the dimensions of the image
